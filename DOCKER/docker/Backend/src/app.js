@@ -10,6 +10,8 @@ app.get('/', (req, res) => {
 });    
 
 
+
+
 app.get('/api/data', (req, res) => {
     const data = {
         message: 'This is some sample data from the API.',
